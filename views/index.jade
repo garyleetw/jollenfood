@@ -1,0 +1,46 @@
+extends ../layouts/default
+
+block body
+  a(name='about')
+  .intro-header
+    .container
+      .row
+        .col-lg-12
+          .intro-message
+            h1 landing
+            h3 
+            hr.intro-divider
+            ul.list-inline.intro-social-buttons
+              li
+                a.btn.btn-default.btn-lg(href='https://twitter.com/SBootstrap')
+                  i.fa.fa-twitter.fa-fw
+                  span.network-name Twitter
+              li
+                a.btn.btn-default.btn-lg(href='https://github.com/IronSummitMedia/startbootstrap')
+                  i.fa.fa-github.fa-fw
+                  span.network-name Github
+              li
+                a.btn.btn-default.btn-lg(href='#')
+                  i.fa.fa-linkedin.fa-fw
+                  span.network-name Linkedin
+
+  a(name='services')
+  .content-section-a
+    .container
+      .row
+        .col-lg-5.col-sm-6
+          hr.section-heading-spacer
+          .clearfix
+          h2.section-heading
+            | 黑森林迷你聖誕樹
+          p.lead
+            | 手作材料包，實物花材
+          ul.list-inline.intro-social-buttons
+            li
+              a.btn.btn-default.btn-lg(href='https://twitter.com/SBootstrap')
+                i.fa.fa-facebook.fa-fw
+                span.network-name Facebook
+        .col-lg-5.col-lg-offset-2.col-sm-6
+          .row
+            .col-md-10
+              img.img-responsive(src='img/ellaine/christmas-1.jpg', alt='')

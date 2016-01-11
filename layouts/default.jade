@@ -1,0 +1,60 @@
+doctype html
+html
+  head
+    block head
+      title Landing Page - Start Bootstrap Theme
+
+    meta(charset="utf-8")
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(href='css/bootstrap.min.css', rel='stylesheet')
+    link(href='css/landing-page.css', rel='stylesheet')  
+    link(href='font-awesome/css/font-awesome.min.css', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic', rel='stylesheet', type='text/css')
+
+    block neck
+  body
+    nav.navbar.navbar-default.navbar-fixed-top.topnav(role='navigation')
+      .container.topnav
+          .navbar-header
+            button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            a.navbar-brand.topnav(href='/') Personal Blog
+          #bs-example-navbar-collapse-1.collapse.navbar-collapse
+            ul.nav.navbar-nav.navbar-right
+              li
+                a(href='/about') About
+              li
+                a(href='#services') Services
+              li
+                a(href='#contact') Contact
+
+    block body
+
+    footer
+      .container
+        .row
+          .col-lg-12
+            ul.list-inline
+              li
+                a(href='#') Home
+              li.footer-menu-divider &sdot;
+              li
+                a(href='/about') About
+              li.footer-menu-divider &sdot;
+              li
+                a(href='#services') Services
+              li.footer-menu-divider &sdot;
+              li
+                a(href='#contact') Contact
+            p.copyright.text-muted.small Copyright &copy; Your Company 2014. AlRightReserved
+
+    block feet
+
+    script(src='js/jquery.js')
+    script(src='js/bootstrap.min.js')
